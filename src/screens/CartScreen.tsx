@@ -177,7 +177,7 @@ const CartScreen: React.FC<CartScreenProps> = ({navigation}) => {
         <View style={styles.bottomSection}>
           <View style={styles.totalContainer}>
             <Text style={styles.totalText}>₹ {total}</Text>
-            <Text style={styles.viewBreakdown}>View Breakdown ></Text>
+            <Text style={styles.viewBreakdown}>View Breakdown </Text>
           </View>
 
           <View style={styles.deliveryOptions}>
@@ -288,7 +288,7 @@ const CartScreen: React.FC<CartScreenProps> = ({navigation}) => {
               {/* Total */}
               <View style={styles.orderModalTotal}>
                 <Text style={styles.orderModalTotalAmount}>₹ 450</Text>
-                <Text style={styles.orderModalViewBreakdown}>View Breakdown ></Text>
+                <Text style={styles.orderModalViewBreakdown}>View Breakdown </Text>
               </View>
             </ScrollView>
 
